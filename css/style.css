@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(../fonts/Poppins-Regular.otf)format('truetype');
+ }
+
+ @font-face {
+    font-family: 'Poppins-Light';
+    src: url(../fonts/Poppins-Light.otf)format('truetype');
+ }
+
+.logo {
+    margin: 0 auto;
+    width: 301px;
+    position: relative;
+    top: 17px;
+    margin-bottom: 50px;
+}
+
+.navbar-nav {
+    font-family: Poppins-Regular;
+    font-size: 1.2rem;
+   
+}
+
+.navbar-light .navbar-nav .nav-link {
+
+    color: #6cc3be;
+
+}
+.formato_hr{
+    border:2;
+    color: #6cc3be;
+}
+body
+{
+    font-family:  'Poppins-Light';
+}
+
+.texto
+{
+ font-size: 14px;
+ letter-spacing:1.6px;
+ line-height: 2.1;
+ text-align: justify;
+ color: #9d9c9c;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color:  #9d9c9c;
+}
+
+.home-link {
+    width: 213px;
+    height: 230px;
+    margin: 0 auto;
+    background: url("../images/logo1.png") top center no-repeat;
+    top: 53px;
+    position: relative;
+    display: block;
+    text-indent: -9999px;
+    z-index: 105;
+}
+
+.main-header {
+    position: relative;
+    height: 280px;
+    background: url("../images/header.jpg") no-repeat top center;
+}
+
+/*footer*/
+
+.site-footer::before{
+    background-color: transparent;
+    background-image: -o-linear-gradient(#c4ddd0 0%, transparent 0%), -o-linear-gradient(45deg, #c4ddd0 33.33%, transparent 33.33%), -o-linear-gradient(-45deg, #c4ddd0 33.33%, transparent 33.33%);
+    background-image: -ms-linear-gradient(#c4ddd0 0%, transparent 0%), -ms-linear-gradient(45deg, #c4ddd0 33.33%, transparent 33.33%), -ms-linear-gradient(-45deg, #c4ddd0 33.33%, transparent 33.33%);
+    background-image: -moz-linear-gradient(#c4ddd0 0%, transparent 0%), -moz-linear-gradient(45deg, #c4ddd0 33.33%, transparent 33.33%), -moz-linear-gradient(-45deg, #c4ddd0 33.33%, transparent 33.33%);
+    background-image: -webkit-linear-gradient(#c4ddd0 0%, transparent 0%), -webkit-linear-gradient(45deg, #c4ddd0 33.33%, transparent 33.33%), -webkit-linear-gradient(-45deg, #c4ddd0 33.33%, transparent 33.33%);
+    background-image: linear-gradient(#c4ddd0 0%, transparent 0%), linear-gradient(45deg, #c4ddd0 33.33%, transparent 33.33%), linear-gradient(-45deg, #c4ddd0 33.33%, transparent 33.33%);
+    background-position: center 0;
+    background-repeat: repeat-x;
+    background-size: 0 100%, 48px 48px, 48px 48px;
+    content: " ";
+    display: block;
+    height: 37px;
+    left: 0;
+    overflow: visible;
+    width: 100%;
+    position: absolute;
+  /*  bottom: 28px;*/
+    transform: translateY(-88px);
+    -ms-transform: translateY(-88px);
+    -moz-transform: translateY(-88px);
+    -o-transform: translateY(-88px);
+    -webkit-transform: translateY(-70px);
+}
+
+.test
+{
+    background-image:url("../images/estrellas.png");
+    background-repeat: repeat-x;
+}
+
+img[src*="patito"] {
+   /* position: absolute;
+    width: 96px;
+    display: inline-block;
+    left: 103px;
+    bottom: 48px;*/
+    width: 96px;
+}
+
+img[src*="patito1"] {
+   /* position: absolute;
+    width: 96px;
+    display: inline-block;
+    left: 1152px;
+    bottom: 48px;*/
+    width: 96px;
+}
